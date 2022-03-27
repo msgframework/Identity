@@ -1,0 +1,19 @@
+{
+  "name": "msgframework/identity",
+  "description": "description",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Msgframework\\Lib\\Identity\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "MSGroupFM",
+      "email": "admin@msgru.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}
