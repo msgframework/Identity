@@ -4,5 +4,6 @@ namespace Msgframework\Lib\Identity;
 
 interface IdentityInterface
 {
-    public function test();
+    public function getId(): int;
+    public function isAuth(): bool;
 }
