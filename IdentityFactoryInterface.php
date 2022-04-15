@@ -18,16 +18,5 @@ interface IdentityFactoryInterface
      *
      * @since   1.0.0
      */
-    public function loadIdentityById(int $id): IdentityInterface;
-
-    /**
-     * Method to get an instance of a user for the given username.
-     *
-     * @param   string  $login  The Identity login
-     *
-     * @return  IdentityInterface
-     *
-     * @since   1.0.0
-     */
-    public function loadIdentityByLogin(string $login): IdentityInterface;
+    public function loadIdentity(int $id): IdentityInterface;
 }
